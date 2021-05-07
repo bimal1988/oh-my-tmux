@@ -16,7 +16,6 @@ main() {
     ensure git clone https://github.com/tmux-plugins/tpm $TMUX_CONF_DIR/plugins/tpm
 
     ensure ln -s $SCRIPT_DIR/tmux.conf $TMUX_CONF_FILE
-    ensure ln -s $SCRIPT_DIR/yank.sh $TMUX_CONF_DIR/yank.sh
     ensure ln -s $SCRIPT_DIR/renew_env.sh $TMUX_CONF_DIR/renew_env.sh
 
     # Install tpm plugins
